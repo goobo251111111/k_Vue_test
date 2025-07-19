@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 </script>
 <template>
   <header>
@@ -8,9 +8,8 @@ import { RouterLink } from 'vue-router';
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/news">News</RouterLink>
-        <RouterLink to="/products">Products</RouterLink>
+        <RouterLink to="/product">Product</RouterLink>
+        <RouterLink to="/cart">Cart</RouterLink>
       </nav>
     </div>
   </header>
@@ -18,7 +17,7 @@ import { RouterLink } from 'vue-router';
 <style>
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  /* max-height: 100vh; */
 }
 
 .logo {
@@ -70,7 +69,7 @@ nav a:first-of-type {
 
   nav {
     text-align: left;
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
     font-size: 1rem;
 
     padding: 1rem 0;
